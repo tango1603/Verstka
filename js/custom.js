@@ -1,6 +1,9 @@
-$(function(){
 
-	var hf = function(){
+console.log('haya!!');
+
+
+
+	/* var hf = function(){
 		var h_header = $('header').height();
 		var h_footer = $('footer').height();
 		$('.content').css({
@@ -10,8 +13,7 @@ $(function(){
 	}
 
 	$(window).bind('load resize', hf);
-
-});
+ */
 
    
 

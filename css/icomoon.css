@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?guf7ed');
+  src:  url('../fonts/icomoon.eot?guf7ed#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?guf7ed') format('truetype'),
+    url('../fonts/icomoon.woff?guf7ed') format('woff'),
+    url('../fonts/icomoon.svg?guf7ed#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Apartment_Building .path1:before {
+  content: "\e900";
+  color: rgb(0, 0, 0);
+  opacity: 0.0156;
+}
+.icon-Apartment_Building .path2:before {
+  content: "\e901";
+  margin-left: -1.22265625em;
+  color: rgb(97, 66, 97);
+}
+.icon-Apartment_Building .path3:before {
+  content: "\e902";
+  margin-left: -1.22265625em;
+  color: rgb(255, 255, 255);
+}
+.icon-banknote:before {
+  content: "\e903";
+}
+.icon-bulb:before {
+  content: "\e904";
+}
+.icon-chevron-right:before {
+  content: "\e905";
+}
+.icon-cross:before {
+  content: "\e906";
+}
+.icon-cup:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-film:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-handset:before {
+  content: "\e909";
+  color: #000;
+}
+.icon-lab:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-Layer_52_copy:before {
+  content: "\e90b";
+}
+.icon-like:before {
+  content: "\e90c";
+  color: #fff;
+}
+.icon-location:before {
+  content: "\e90d";
+}
+.icon-mail:before {
+  content: "\e90e";
+}
+.icon-man:before {
+  content: "\e90f";
+  color: #fff;
+}
+.icon-params:before {
+  content: "\e910";
+}
+.icon-phone:before {
+  content: "\e911";
+}
+.icon-photo:before {
+  content: "\e912";
+  color: #fff;
+}
+.icon-slideshow:before {
+  content: "\e913";
+  color: #fff;
+}
+.icon-stack:before {
+  content: "\e914";
+  color: #f39c12;
+}
+.icon-star:before {
+  content: "\e915";
+}
+.icon-twitter:before {
+  content: "\e916";
+}
+.icon-user:before {
+  content: "\e917";
+  color: #fff;
+}
+.icon-world:before {
+  content: "\e918";
+}
