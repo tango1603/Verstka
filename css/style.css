@@ -55,13 +55,13 @@ h6 {
   font-weight: 400;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 11px 35px;  
+  padding: 11px 35px;
 }
 
 .btn--warning {
-color: #0d0d0d;
-border-color: #f39c12;
-font-weight: 700;
+  color: #0d0d0d;
+  border-color: #f39c12;
+  font-weight: 700;
 }
 
 .btn:hover {
@@ -157,12 +157,14 @@ header {
 .heading {
   display: flex;
   align-items: center;
-  max-width: 90%;
   margin: 0 auto 150px;
 }
 
 .heading h2 {
   color: #0d0d0d;
+  text-align: right;
+  flex:none;
+  width: 200px;
   font-size: 30px;
   font-weight: 700;
   line-height: 35px;
@@ -598,6 +600,7 @@ header {
 .pricing__item:last-child {
   border-left: none;
 }
+
 .pricing__item.active {
   border-left: none;
   border-right: none;
@@ -609,6 +612,7 @@ header {
 .pricing-header {
   padding: 25px 28px;
 }
+
 .pricing__item.active .pricing-header {
   background: #f39c12;
 }
@@ -664,7 +668,7 @@ header {
   background: #e6e6e6;
 }
 
-.pricing-footer{
+.pricing-footer {
   padding: 25px 28px;
 }
 
@@ -672,7 +676,49 @@ header {
   background: #e6e6e6;
 }
 
-.pricing-footer .btn{
+.pricing-footer .btn {
   height: 38px;
   padding: 9px 33px 0;
+}
+
+/*testimonial*/
+.testimonial {
+  text-align: center;
+  color: #fff;
+}
+
+.testimonial .quote__author:before {
+  display: none;
+}
+
+.testimonial .quote__author:after {
+  content: "";
+  display: block;
+  margin: 20px auto;
+  width: 50px;
+  height: 4px;
+  background-color: #f39c12;
+}
+
+.testimonial__text {
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 30px;
+  margin: 35px 0 25px;
+}
+
+.testimonial__avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;  
+  margin: 0 auto;
+  border: 1px solid #fff;
+}
+
+.testimonial__avatar img{
+  display: block;
+  width: 100%;
 }
