@@ -886,3 +886,153 @@ header {
 .portfolio-list__preview:hover {
   background-color: rgba(243, 156, 18, 0.8);
 }
+
+/*tweet-wrap*/
+
+.tweet-wrap {
+  text-align: center;
+  color: #ffffff;
+}
+
+.tweet-wrap__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 104px;
+  height: 104px;
+  border: 2px solid #ffffff;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.tweet-wrap__text {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 33px;
+  margin-top: 38px;
+  margin-bottom: 18px;
+}
+
+.tweet-wrap__text--yellow {
+  color: #f39c12;
+}
+
+.tweet-wrap__text--yellow:hover {
+  text-decoration: underline;
+}
+
+.tweet-wrap__time {
+  color: #808080;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 38px;
+}
+
+.blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blog-list__item {
+  width: 559px;
+  margin-bottom: 60px;
+}
+
+.blog-list__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  background-color: #b7b7b7;
+  font-size: 58px;
+}
+
+.blog-list__img img {
+  width: 100%;
+  display: block;
+  min-height: 300px;
+}
+
+.blog-list__header {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.blog-list__title {
+  background: #fff;
+  padding: 25px 20px 10px;
+}
+
+.blog-list__icon {
+  width: 44px;
+  height: 44px;
+  background-color: #f39c12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #fff;
+}
+
+.blog-list__footer {
+  display: flex;
+  padding-top: 20px;
+}
+
+.blog-list__date {
+  color: #808080;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.blog-list__date {
+  color: #595959;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: right;
+}
+
+.blog-list__date span {
+  display: block;
+  white-space: nowrap;
+}
+
+.blog-list__info {
+  padding: 0 30px 40px;
+}
+
+.blog-list__info p {
+  padding-bottom: 28px;  
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.blog-list__info .btn {
+  height: 35px;
+  font-size: 14px;
+  padding: 8px 27px 0;
+}
+
+.blog-list__link{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;top: 0;
+  z-index: 2;
+}
+
+.blog-list__img:hover .blog-list__title{
+  color:  #f39c12;
+}
